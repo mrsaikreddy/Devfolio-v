@@ -23,6 +23,11 @@ position:sticky;}
     
 }
 
+.out a:hover{
+  background-color: #fff;
+  transition-duration: 1s;
+  color: #000;
+}
 
 .navi ul li a :active{
   display: block;
