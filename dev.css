@@ -12,10 +12,10 @@ html
 {
     display: flex;
     flex-direction: row;
-    margin: 20vh 15vh 0vh 15vh;
+    margin: 20vh 15vh 5vh 15vh;
     align-items: center;
     justify-content: center;
-    /* padding: 5px; */
+    /* padding: 10px; */
 }
 img
 {
@@ -27,4 +27,41 @@ img
 {
     width: 285px;
     height: 285px;
+}
+.most
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    border: 2px solid grey;
+    width: 70vw;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.all
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* border-radius: 10px; */
+}
+h4
+{
+    margin: 10px;
+}
+.select
+{
+    height: 10px;
+}
+.att
+{
+    padding: 3px;
+    border: 2px solid grey;
+    height: 30px;
+}
+h3
+{
+    color: blue;
 }
